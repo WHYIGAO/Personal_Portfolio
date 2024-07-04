@@ -409,3 +409,101 @@ footer .socials a{
         font-size: 13px;
     }
 }
+
+
+.contact-form {
+    background: #18181b;
+    border: 1px solid #27272a;
+    border-radius: 14px;
+    padding: 60px 40px;
+    margin-top: 20px;
+}
+
+.contact-form h3 {
+    color: #bdbdbd;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form label {
+    color: #bdbdbd;
+    font-size: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #27272a;
+    border-radius: 7px;
+    background: #171717;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    background: #CCB017;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #E6D053;
+}
+
+
+@media (max-width: 768px) {
+    .links a {
+        margin-right: 10px;
+    }
+}
+
+footer {
+    padding: 40px 60px;
+    text-align: center;
+    border-top: 1px solid #27272a;
+}
+
+footer a {
+    font-size: 18px;
+    color: #CCB017;
+    margin-bottom: 10px;
+    display: block;
+}
+
+footer .socials {
+    margin: 20px 0;
+}
+
+footer .socials a {
+    font-size: 24px; /* Ajuste o tamanho dos ícones conforme necessário */
+    color: #bdbdbd;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer .socials a:hover {
+    color: #CCB017;
+}
+
+footer .online {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: #27272a;
+    padding: 5px 10px;
+    border-radius: 7px;
+    color: #CCB017;
+    margin-top: 20px;
+}
